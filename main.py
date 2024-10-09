@@ -1,3 +1,4 @@
+import os
 import sys
 import json
 import requests
@@ -5,6 +6,7 @@ from PyQt6 import QtWidgets, QtCore, QtGui
 from PyQt6.QtGui import QIntValidator, QDoubleValidator
 from MainWindow import Ui_MainWindow
 from datetime import datetime
+from fileos import resource_path
 # IMPORTAÇÃO DOS MÓDULOS 
 # sys -> Fornece acesso a variáveis e funções específicas do sistema (operações no sistema operacional).
 # json -> Modulo para acessar ou manipular dados no formato JSON.
@@ -73,7 +75,8 @@ class MyApp(QtWidgets.QMainWindow):
         self.ui.clock_label.setText(formatted_time)
         
     def load_currency_data(self):
-        with open('currency.json', 'r') as f: # ABERTURA DO ARQUIVO JSON 
+        currency_data_path = resource_path('currency.json')
+        with open(currency_data_path, 'r') as f: # ABERTURA DO ARQUIVO JSON 
             data = json.load(f) 
             # Armazena os dados em currency_data => um dicionaŕio que associa o nome da moeda à sua informação completa
             self.currency_data = {currency["name"]: currency for currency in data["currencies"]}
@@ -112,7 +115,7 @@ class MyApp(QtWidgets.QMainWindow):
         currency_info = self.currency_data.get(currency_name)
         
         if currency_info: # 
-            flag_path = currency_info.get("flag") # Tenta obter o valor associado a chave flag
+            flag_path = resource_path(currency_info.get("flag")) # Tenta obter o valor associado a chave flag
             if flag_path: # Verifica se há um caminho válido
                 pixmap = QtGui.QPixmap(flag_path)
                 label.setPixmap(pixmap.scaled(80, 65, QtCore.Qt.AspectRatioMode.KeepAspectRatio))
