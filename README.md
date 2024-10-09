@@ -32,7 +32,7 @@
 ## Instalation
 
 
-- Download "ExchangeRate.exe" in [RELEASES]() or just clone the project and run the file main.py in the terminal.
+- Download "ExchangeRate.exe" in [RELEASES](https://github.com/bentogomes19/ExchangeRateGUI-API/releases/tag/v1.0.0) or just clone the project and run the file main.py in the terminal.
 
 
 
