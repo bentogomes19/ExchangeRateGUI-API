@@ -1,0 +1,109 @@
+{
+    "currencies": [
+        {
+            "name": "United States Dollar",
+            "code": "USD",
+            "flag": "./country-flags-main/png100px/us.png"
+        },
+        {
+            "name": "Euro",
+            "code": "EUR",
+            "flag": "./country-flags-main/png100px/eu.png"
+        },
+        {
+            "name": "Japanese Yen",
+            "code": "JPY",
+            "flag": "./country-flags-main/png100px/jp.png"
+        },
+        {
+            "name": "Australian Dollar",
+            "code": "AUD",
+            "flag": "./country-flags-main/svg/au.svg"
+        },
+        {
+            "name": "British Pound Sterling",
+            "code": "GBP",
+            "flag": "./country-flags-main/svg/gb.svg"
+        },
+        {
+            "name": "Canadian Dollar",
+            "code": "CAD",
+            "flag": "./country-flags-main/svg/ca.svg"
+        },
+        {
+            "name": "Swiss Franc",
+            "code": "CHF",
+            "flag": "./country-flags-main/svg/ch.svg"
+        },
+        {
+            "name": "Chinese Yuan",
+            "code": "CNY",
+            "flag": "./country-flags-main/svg/cn.svg"
+        },
+        {
+            "name": "Swedish Krona",
+            "code": "SEK",
+            "flag": "./country-flags-main/svg/se.svg"
+        },
+        {
+            "name": "New Zealand Dollar",
+            "code": "NZD",
+            "flag": "./country-flags-main/svg/nl.svg"
+        },
+        {
+            "name": "Singapore Dollar",
+            "code": "SGD",
+            "flag": "./country-flags-main/svg/sg.svg"
+        },
+        {
+            "name": "Hong Kong Dollar",
+            "code": "HKD",
+            "flag": "./country-flags-main/svg/hk.svg"
+        },
+        {
+            "name": "Norwegian Krone",
+            "code": "NOK",
+            "flag": "./country-flags-main/svg/no.svg"
+        },
+        {
+            "name": "Mexican Peso",
+            "code": "MXN",
+            "flag": "./country-flags-main/svg/mx.svg"
+        },
+        {
+            "name": "Indian Rupee",
+            "code": "INR",
+            "flag": "./country-flags-main/svg/in.svg"
+        },
+        {
+            "name": "Brazilian Real",
+            "code": "BRL",
+            "flag": "./country-flags-main/png100px/br.png"
+        },
+        {
+            "name": "Russian Ruble",
+            "code": "RUB",
+            "flag": "./country-flags-main/svg/ru.svg"
+        },
+        {
+            "name": "South African Rand",
+            "code": "ZAR",
+            "flag": "./country-flags-main/png100px/za.png"
+        },
+        {
+            "name": "Turkish Lira",
+            "code": "TRY",
+            "flag": "./country-flags-main/png100px/tr.png"
+        },
+        {
+            "name": "Danish Krone",
+            "code": "DKK",
+            "flag": "./country-flags-main/svg/dk.svg"
+        },
+        {
+            "name": "Thai Baht",
+            "code": "THB",
+            "flag": "./country-flags-main/svg/th.svg"
+        }
+    ]
+}
