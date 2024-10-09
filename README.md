@@ -17,7 +17,9 @@
 ## Funcionalities
 
 
-> Use this application to be informed about the exchange Rate in real time.
+> Use this application to be informed about the exchange Rate.
+
+> This API doesn't support updates in real time. (24 Hour Updates) last day update: oct 9
 
 > Select in the first Combo Box the first currency.
 
