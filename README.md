@@ -12,7 +12,7 @@
 
 
 ## Layout
-<img src="assets/layout_app.png" alt="layout_gui" width="320"/>
+<img src="assets/layout_app.png" alt="layout_gui" width="340"/>
 
 ## Funcionalities
 
